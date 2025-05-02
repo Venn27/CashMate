@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#03A9f4"/> <!-- Warna latar belakang putih, bisa diganti sesuai kebutuhan -->
+    <corners android:radius="32dp"/> <!-- Membuat bentuk lingkaran dengan radius besar -->
+</shape>

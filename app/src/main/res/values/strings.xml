@@ -1,0 +1,189 @@
+<resources>
+    <string name="app_name">CashMate</string>
+    <string name="app_slogan">Pencatat Keuangan Pribadi</string>
+
+    <!-- Settings Strings -->
+    <string name="settings">Pengaturan</string>
+    <string name="general_settings">Pengaturan Umum</string>
+    <string name="data_settings">Pengaturan Data</string>
+    <string name="about">Tentang Aplikasi</string>
+
+    <string name="language">Bahasa</string>
+    <string name="language_indonesian">Bahasa Indonesia</string>
+    <string name="language_english">English</string>
+    <string name="select_language">Pilih Bahasa</string>
+    <string name="restart_needed">Silakan restart aplikasi untuk menerapkan perubahan bahasa</string>
+
+    <string name="theme">Tema</string>
+    <string name="theme_light">Terang</string>
+    <string name="theme_dark">Gelap</string>
+    <string name="select_theme">Pilih Tema</string>
+
+    <string name="currency">Mata Uang</string>
+    <string name="currency_idr">Rupiah (IDR)</string>
+    <string name="currency_usd">Dollar (USD)</string>
+    <string name="select_currency">Pilih Mata Uang</string>
+
+    <string name="export_data">Ekspor Data</string>
+    <string name="export_data_desc">Ekspor semua data ke file JSON</string>
+    <string name="export_success">Data berhasil diekspor ke file: %1$s</string>
+    <string name="export_error">Gagal mengekspor data: %1$s</string>
+
+    <string name="import_data">Impor Data</string>
+    <string name="import_data_desc">Impor data dari file JSON</string>
+    <string name="import_success">Data berhasil diimpor</string>
+    <string name="import_error">Gagal mengimpor data: %1$s</string>
+
+    <string name="clear_data">Hapus Semua Data</string>
+    <string name="clear_data_desc">Hapus semua data dari aplikasi</string>
+    <string name="clear_data_title">Hapus Semua Data</string>
+    <string name="clear_data_confirmation">Apakah Anda yakin ingin menghapus semua data? Tindakan ini tidak dapat dibatalkan.</string>
+    <string name="clear">Hapus</string>
+    <string name="data_cleared">Semua data telah dihapus</string>
+
+    <string name="app_version">Versi Aplikasi</string>
+    <string name="developer">Pengembang</string>
+    <string name="developer_name">Adven, Adelia, Muzhaffar</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="transactions">Transaksi</string>
+    <string name="budget">Anggaran</string>
+    <string name="reports">Laporan</string>
+    <string name="budget_updated">Anggaran untuk %s berhasil diperbarui</string>
+    <!-- Tambahkan string resource berikut ke file strings.xml -->
+    <string name="budget_exceeded">Anggaran Terlampaui</string>
+    <string name="budget_exceeded_message">Pengeluaran ini akan melampaui anggaran untuk kategori %s</string>
+    <string name="save_anyway">Simpan Tetap</string>
+    <!-- Dashboard -->
+    <string name="current_balance">Saldo Saat Ini</string>
+    <string name="income">Pemasukan</string>
+    <string name="expenses">Pengeluaran</string>
+    <string name="recent_transactions">Transaksi Terbaru</string>
+    <string name="budget_status">Status Anggaran</string>
+    <string name="see_all">Lihat Semua</string>
+
+    <!-- Transactions -->
+    <string name="add_transaction">Tambah Transaksi</string>
+    <string name="add_income">Tambah Pemasukan</string>
+    <string name="add_expense">Tambah Pengeluaran</string>
+    <string name="amount">Jumlah</string>
+    <string name="source">Sumber</string>
+    <string name="category">Kategori</string>
+    <string name="date">Tanggal</string>
+    <string name="notes">Catatan</string>
+    <string name="save">Simpan</string>
+    <string name="cancel">Batal</string>
+    <string name="delete">Hapus</string>
+    <string name="edit">Edit</string>
+
+    <!-- Budget -->
+    <string name="manage_budgets">Kelola Anggaran</string>
+    <string name="add_budget">Tambah Anggaran</string>
+    <string name="edit_budget">Edit Anggaran</string>
+    <string name="budget_amount">Jumlah Anggaran</string>
+    <string name="spent_amount">Jumlah Digunakan</string>
+    <string name="remaining">Tersisa</string>
+
+    <!-- Business Transaction -->
+    <string name="business_transaction">Transaksi Bisnis</string>
+    <string name="product_name">Nama Produk</string>
+    <string name="quantity">Jumlah</string>
+    <string name="price">Harga</string>
+    <string name="transaction_type">Jenis Transaksi</string>
+    <string name="description">Deskripsi</string>
+
+    <!-- Reports -->
+    <string name="balance_report">Laporan Saldo</string>
+    <string name="profit_loss_report">Laporan Laba Rugi</string>
+    <string name="select_period">Pilih Periode</string>
+    <string name="revenue">Pendapatan</string>
+    <string name="net_profit">Laba Bersih</string>
+    <string name="balance_trend">Tren Saldo</string>
+
+    <!-- Form Validation -->
+    <string name="error_amount_required">Jumlah wajib diisi</string>
+    <string name="error_source_required">Sumber wajib dipilih</string>
+    <string name="error_category_required">Kategori wajib dipilih</string>
+    <string name="error_date_required">Tanggal wajib diisi</string>
+    <string name="error_product_name_required">Nama produk wajib diisi</string>
+    <string name="error_quantity_required">Jumlah wajib diisi</string>
+    <string name="error_price_required">Harga wajib diisi</string>
+    <string name="error_transaction_type_required">Jenis transaksi wajib dipilih</string>
+
+    <!-- Success Messages -->
+    <string name="income_saved_successfully">Pemasukan berhasil disimpan</string>
+    <string name="expense_saved_successfully">Pengeluaran berhasil disimpan</string>
+    <string name="budget_saved_successfully">Anggaran berhasil disimpan</string>
+    <string name="transaction_saved_successfully">Transaksi berhasil disimpan</string>
+
+    <!-- Error Messages -->
+    <string name="error_saving_income">Gagal menyimpan pemasukan</string>
+    <string name="error_saving_expense">Gagal menyimpan pengeluaran</string>
+    <string name="error_saving_budget">Gagal menyimpan anggaran</string>
+    <string name="error_saving_transaction">Gagal menyimpan transaksi</string>
+
+    <!-- Common -->
+    <string name="category_icon">Ikon Kategori</string>
+    <string name="date_placeholder">01/01/2025</string>
+    <string name="app_logo">Logo Aplikasi</string>
+    <string name="salary">Gaji</string>
+    <string name="action_settings">Pengaturan</string>
+
+    <!-- Arrays -->
+    <string-array name="income_sources">
+        <item>Gaji</item>
+        <item>Bisnis</item>
+        <item>Investasi</item>
+        <item>Hadiah</item>
+        <item>Lainnya</item>
+    </string-array>
+
+    <string-array name="expense_categories">
+        <item>Makanan</item>
+        <item>Transportasi</item>
+        <item>Rumah</item>
+        <item>Hiburan</item>
+        <item>Belanja</item>
+        <item>Kesehatan</item>
+        <item>Pendidikan</item>
+        <item>Tagihan</item>
+        <item>Lainnya</item>
+    </string-array>
+
+    <string-array name="business_transaction_types">
+        <item>Penjualan</item>
+        <item>Pembelian</item>
+        <item>Pembayaran</item>
+        <item>Penerimaan</item>
+    </string-array>
+
+    <string-array name="transaction_filters">
+        <item>Semua</item>
+        <item>Pemasukan</item>
+        <item>Pengeluaran</item>
+        <item>Hari Ini</item>
+        <item>Minggu Ini</item>
+        <item>Bulan Ini</item>
+    </string-array>
+
+    <string-array name="report_periods">
+        <item>Harian</item>
+        <item>Mingguan</item>
+        <item>Bulanan</item>
+        <item>Tahunan</item>
+    </string-array>
+
+    <string-array name="months">
+        <item>Januari</item>
+        <item>Februari</item>
+        <item>Maret</item>
+        <item>April</item>
+        <item>Mei</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>Agustus</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Desember</item>
+    </string-array>
+</resources>
